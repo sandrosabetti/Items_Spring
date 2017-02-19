@@ -1,0 +1,78 @@
+22:48:00.888 3746 [main] INFO  main.Application - Starting Application on MacBook-Air-MacBook-2.local with PID 49276 (/Users/macbook/Dropbox/Projects/IdeaProjects/My/Items_Spring/target/classes started by macbook in /Users/macbook/Dropbox/Projects/IdeaProjects/My/Items_Spring)
+22:48:00.916 3774 [main] INFO  main.Application - No active profile set, falling back to default profiles: default
+22:48:01.091 3949 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a84f40f: startup date [Sun Feb 19 22:48:01 EET 2017]; root of context hierarchy
+22:48:02.789 5647 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+22:48:05.036 7894 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+22:48:05.269 8127 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [class org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$1b656c85] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:48:05.298 8156 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [class org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:48:05.300 8158 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@66ec9390' of type [class org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:48:05.331 8189 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [class org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$403a0f37] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:48:05.348 8206 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [class org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:48:05.380 8238 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$82b7a44b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:48:06.247 9105 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9090 (http)
+22:48:06.291 9149 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+22:48:06.296 9154 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.0.M6
+22:48:07.192 10050 [localhost-startStop-1] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22:48:07.203 10061 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:48:07.203 10061 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6112 ms
+22:48:07.553 10411 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+22:48:07.556 10414 [localhost-startStop-1] INFO  o.s.b.c.e.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+22:48:07.556 10414 [localhost-startStop-1] INFO  o.s.b.c.e.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+22:48:08.121 10979 [localhost-startStop-1] INFO  o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.postgresql.Driver
+22:48:08.297 11155 [localhost-startStop-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+22:48:08.422 11280 [localhost-startStop-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+22:48:08.750 11608 [localhost-startStop-1] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.1.0.Final}
+22:48:08.762 11620 [localhost-startStop-1] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+22:48:08.766 11624 [localhost-startStop-1] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+22:48:09.545 12403 [localhost-startStop-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+22:48:10.153 13011 [localhost-startStop-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+22:48:10.656 13514 [localhost-startStop-1] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+22:48:10.660 13518 [localhost-startStop-1] INFO  o.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1996df05
+22:48:11.802 14660 [localhost-startStop-1] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+22:48:13.460 16318 [localhost-startStop-1] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7dc70c29, org.springframework.security.web.context.SecurityContextPersistenceFilter@18d13e0a, org.springframework.security.web.header.HeaderWriterFilter@2fafcba7, org.springframework.security.web.authentication.logout.LogoutFilter@6b1039d9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@d2054, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4bef1e0e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40790391, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7532ff68, org.springframework.security.web.session.SessionManagementFilter@1ee98fe8, org.springframework.security.web.access.ExceptionTranslationFilter@4969e7c7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@ce98bab]
+22:48:13.945 16803 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: entityManager
+	...]
+22:48:13.966 16824 [main] WARN  org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+22:48:13.968 16826 [main] INFO  org.hibernate.orm.connections - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/test]
+22:48:13.969 16827 [main] INFO  org.hibernate.orm.connections - HHH10001001: Connection properties: {user=app, password=****}
+22:48:13.969 16827 [main] INFO  org.hibernate.orm.connections - HHH10001003: Autocommit mode: false
+22:48:13.975 16833 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+22:48:14.006 16864 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+22:48:14.263 17121 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+22:48:14.265 17123 [main] INFO  o.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1996df05
+22:48:14.728 17586 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+22:48:15.658 18516 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/show_item],methods=[GET]}" onto public java.lang.String main.controller.ItemEditController.showItem(long,org.springframework.ui.ModelMap)
+22:48:15.660 18518 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/edit_item],methods=[POST]}" onto public java.lang.String main.controller.ItemEditController.editItem(main.model.entity.Item)
+22:48:15.667 18525 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/edit_item],methods=[GET]}" onto public java.lang.String main.controller.ItemEditController.editItem(long,org.springframework.ui.ModelMap)
+22:48:15.667 18525 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/delete_item],methods=[POST]}" onto public java.lang.String main.controller.ItemEditController.deleteItem(long)
+22:48:15.667 18525 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/add_item],methods=[GET]}" onto public java.lang.String main.controller.ItemEditController.addItem(org.springframework.ui.ModelMap)
+22:48:15.667 18525 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/add_item],methods=[POST]}" onto public java.lang.String main.controller.ItemEditController.addItem(main.model.entity.Item)
+22:48:15.668 18526 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/find_item],methods=[GET]}" onto public java.lang.String main.controller.ItemEditController.findItem(java.lang.String,org.springframework.ui.ModelMap)
+22:48:15.669 18527 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/items/{id}],methods=[GET]}" onto public main.model.entity.Item main.controller.ItemRestController.getItem(long) throws java.io.IOException
+22:48:15.674 18532 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/items/{id}],methods=[DELETE]}" onto public void main.controller.ItemRestController.deleteItem(long)
+22:48:15.674 18532 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/items],methods=[POST]}" onto public main.model.entity.Item main.controller.ItemRestController.addItem(main.model.entity.Item)
+22:48:15.675 18533 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/items],methods=[GET],produces=[application/json]}" onto public java.util.List<main.model.entity.Item> main.controller.ItemRestController.getAllItems() throws java.io.IOException
+22:48:15.675 18533 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/items],methods=[PUT]}" onto public void main.controller.ItemRestController.updateItem(main.model.entity.Item)
+22:48:15.676 18534 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/table],methods=[GET]}" onto public java.lang.String main.controller.ItemTableController.showItemTable(org.springframework.ui.ModelMap)
+22:48:15.677 18535 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[GET]}" onto public java.lang.String main.controller.LoginController.loginPage()
+22:48:15.685 18543 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+22:48:15.685 18543 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+22:48:15.723 18581 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+22:48:15.761 18619 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/pages/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+22:48:16.031 18889 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a84f40f: startup date [Sun Feb 19 22:48:01 EET 2017]; root of context hierarchy
+22:48:16.897 19755 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+22:48:16.923 19781 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+22:48:16.935 19793 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-9090]
+22:48:16.957 19815 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+22:48:17.020 19878 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9090 (http)
+22:48:17.028 19886 [main] INFO  main.Application - Started Application in 17.673 seconds (JVM running for 21.661)
+22:57:07.326 550184 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+22:57:07.392 550250 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+22:57:09.326 552184 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 1932 ms
+22:58:19.500 622358 [http-nio-9090-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'dispatcherServlet'
+23:34:51.281 2814139 [Thread-2] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a84f40f: startup date [Sun Feb 19 22:48:01 EET 2017]; root of context hierarchy
+23:34:51.559 2814417 [Thread-2] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+23:34:51.636 2814494 [Thread-2] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
